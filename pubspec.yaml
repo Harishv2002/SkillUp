@@ -1,0 +1,44 @@
+name: pbl
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_neumorphic: ^3.2.0
+  flutter_staggered_grid_view: ^0.6.1
+  flutter_svg: ^1.0.3
+  flutter_zoom_drawer: ^3.0.0
+  carousel_slider: ^4.0.0
+  modal_progress_hud_nsn: ^0.1.0-nullsafety-1
+  lottie: ^1.0.0
+  image_picker: ^0.8.4+1
+  file_picker: ^4.2.4
+  cached_network_image: ^3.2.0
+  intl: ^0.17.0
+  custom_full_image_screen: ^0.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+     - assets/images/
+     - assets/icons/
+  fonts:
+    - family: Circular
+      fonts:
+        - asset: assets/fonts/CircularStd-Medium.ttf
+        - asset: assets/fonts/CircularAir-Light.ttf
+          weight: 100
+        - asset: assets/fonts/CircularStd-Bold.ttf
+          weight: 500
